@@ -1,0 +1,133 @@
+/* body */
+body {font-family: "Lato", sans-serif;
+}
+
+.si{
+  font-size:10px;
+}
+
+p{
+font-size: 15px;
+margin: 4px 2px;
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
+.button1 {
+background-color: transparent;
+color: white;
+border: 2px solid rgb(5, 5, 5);
+border-radius:20px;
+}
+
+.button1:hover {
+background-color:rgb(216, 133, 198);
+color: white;
+}
+
+.icons{
+ font-size: 25px;
+}
+
+input,textarea{
+background-color: transparent;
+}
+
+.pink{
+  color: white;
+}
+
+.pink:hover{
+  color: rgb(54, 207, 218);
+}
+
+.sidebar{
+height: 100%;
+width: 150px;
+position: fixed;
+z-index: 1; 
+top: 0;
+left: 0;
+background-color: rgb(138, 136, 138);
+overflow-x: hidden;
+padding-top: 16px;
+}
+
+.sidebar a{
+padding: 6px 8px 6px 16px;
+text-decoration: none;
+font-size: 20px;
+color:black;
+display: block;
+}
+
+.sidebar a:hover{
+color:black;
+}
+
+.main{
+/*margin-left: 210px;  Same as the width of the sidenav */
+padding: 0;
+/* background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),url(".jpg");*/ 
+color:pink;
+text-align: center;
+height: 100%;
+width:100%;
+background-repeat:no-repeat;
+background-color:black;
+}
+
+@media screen and (max-height: 500px){
+.sidebar {padding-top: 15px;}
+.sidebar a {font-size: 18px;}
+}
+.user-logo{
+height: 150px;
+width: 150px;
+padding: 25px;
+}
+.img1{
+height: 150px;
+width:150px;
+border: 8px double pink;
+border-radius: 50%;
+border-color: rgb(27, 27, 27);
+
+}
+.h1{
+  font-size:50px;
+  font-family:border-radius;
+  color:pink;
+}
+.button{
+padding: 6px 8px 6px 16px;
+text-decoration: none;
+font-size: 20px;
+color: rgb(14, 15, 15);
+display: block;
+background-color:rgb(192, 135, 145);
+}
+
+.button a:hover{
+color: rgb(244, 245, 244);
+}
+.bi{
+color:rgb(243, 246, 247);
+}
+.l{  
+color: rgb(255, 0, 0);
+text-align: center;
+}
+h1{
+text-align: center;
+}
+.im{
+height: 270px;
+width:314px;
+}
+h4{
+color: rgb(230, 231, 233);
+}
+h5{
+color: pink;
+}
